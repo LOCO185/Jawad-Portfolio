@@ -77,7 +77,7 @@ function Projects() {
               description="I intended to apply the knowledges that I acquired regarding frontend web development using a JS framework, React,
               and making API calls in order to retrieve some data. This project has the purpose of tracking Covid-19 cases (Confirmed, Active, Deaths, Recoverd) around the world,
               showing the frontend skills that I developped as a fullstack web developer. and its mobile friendly."
-              link="https://covid-19-tracker-by-jawad.netlify.app/"
+              link="https://github.com/LOCO185/Covid-19-tracker"
             />
           </Col>
 
