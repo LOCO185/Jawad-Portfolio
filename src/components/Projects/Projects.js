@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import memories from "../../Assets/Projects/memories.png";
 import gym from "../../Assets/Projects/gym-shark.png";
 import minecraft from "../../Assets/Projects/minecraft.png";
+import dice from "../../Assets/Projects/dice.png";
 
 function Projects() {
   return (
@@ -57,11 +58,13 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              // imgPath={}
+              imgPath={dice}
               isBlog={false}
               title="Dice Game"
-              description=""
-              link=""
+              description="Roll Dice : Picks a random number between 1 to 6, and then display in the gameSettings container two images of the dice according to the selected number
+              Hold Function : Adds the the currentScore to the totalplayer score and then passes the turn to the other player
+              New Game : Easiest function you can come across.. just re set the state to its default"
+              link="https://github.com/LOCO185/Dice-Game-React"
             />
           </Col>
 
