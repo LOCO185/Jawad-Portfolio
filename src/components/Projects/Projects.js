@@ -6,6 +6,7 @@ import memories from "../../Assets/Projects/memories.png";
 import gym from "../../Assets/Projects/gym-shark.png";
 import minecraft from "../../Assets/Projects/minecraft.png";
 import dice from "../../Assets/Projects/dice.png";
+import covid from "../../Assets/Projects/covid.png";
 
 function Projects() {
   return (
@@ -70,11 +71,13 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              // imgPath={}
+              imgPath={covid}
               isBlog={false}
               title="Covid-19 Tracker"
-              description=""
-              link=""
+              description="I intended to apply the knowledges that I acquired regarding frontend web development using a JS framework, React,
+              and making API calls in order to retrieve some data. This project has the purpose of tracking Covid-19 cases (Confirmed, Active, Deaths, Recoverd) around the world,
+              showing the frontend skills that I developped as a fullstack web developer. and its mobile friendly."
+              link="https://covid-19-tracker-by-jawad.netlify.app/"
             />
           </Col>
 
