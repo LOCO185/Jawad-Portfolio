@@ -80,16 +80,6 @@ function Projects() {
               link="https://github.com/LOCO185/Covid-19-tracker"
             />
           </Col>
-
-          {/* <Col md={4} className="project-card">
-            <ProjectCard
-              // imgPath={}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description=""
-              link=""
-            />
-          </Col> */}
         </Row>
       </Container>
     </Container>
