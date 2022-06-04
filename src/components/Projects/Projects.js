@@ -7,6 +7,7 @@ import gym from "../../Assets/Projects/gym-shark.png";
 import minecraft from "../../Assets/Projects/minecraft.png";
 import dice from "../../Assets/Projects/dice.png";
 import covid from "../../Assets/Projects/covid.png";
+import matching from "../../Assets/Projects/matching.png";
 
 function Projects() {
   return (
@@ -82,7 +83,7 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              // imgPath={}
+              imgPath={matching}
               isBlog={false}
               title="Matching App"
               description="Simple macthing application, we did it as a weekend project at the Full Stack bootcamp to learn and dominate React reusable components."
