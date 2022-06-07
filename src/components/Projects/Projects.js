@@ -92,7 +92,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={matching}
               isBlog={false}
@@ -100,9 +100,9 @@ function Projects() {
               description="Simple macthing application, we did it as a weekend project at the Full Stack bootcamp to learn and dominate React reusable components."
               link="https://github.com/LOCO185/matching-app"
             />
-          </Col>
-          
-          <Col md={4} className="project-card">
+          </Col> */}
+
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={matching}
               isBlog={false}
@@ -110,7 +110,7 @@ function Projects() {
               description="Simple macthing application, we did it as a weekend project at the Full Stack bootcamp to learn and dominate React reusable components."
               link="https://github.com/LOCO185/matching-app"
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>
