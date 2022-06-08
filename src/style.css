@@ -306,6 +306,7 @@ button:focus {
 }
 
 .img-fluid {
+  border-radius: 15%;
   width: 320px;
   height: 320px;
 }
