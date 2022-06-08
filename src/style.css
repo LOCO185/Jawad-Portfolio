@@ -305,6 +305,11 @@ button:focus {
   }
 }
 
+.img-fluid {
+  width: 320px;
+  height: 320px;
+}
+
 .myAvtar {
   justify-content: center !important;
   padding-top: 9em !important;
