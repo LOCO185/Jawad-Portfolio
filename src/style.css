@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada&display=swap');
 html {
   --section-background-color: linear-gradient(
     to bottom left,
@@ -155,8 +156,10 @@ button:focus {
 }
 
 .logo {
+  font-family: 'Radio Canada', sans-serif;
   height: 1.4em !important;
   width: 2.5em !important;
+  color: #20dbe9;
 }
 
 .navbar-nav .nav-link {
