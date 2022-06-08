@@ -10,16 +10,13 @@ import {
   DiAngularSimple,
 } from "react-icons/di";
 import { SiFirebase, SiTypescript, SiCss3, SiExpress } from "react-icons/si";
-import Tooltip from "@mui/material/Tooltip";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Tooltip title="hi there" placement="top">
-        <Col data-tip="hi there" xs={4} md={2} className="tech-icons">
-          <DiJavascript1 />
-        </Col>
-      </Tooltip>
+      <Col data-tip="hi there" xs={4} md={2} className="tech-icons">
+        <DiJavascript1 />
+      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiTypescript />
       </Col>
